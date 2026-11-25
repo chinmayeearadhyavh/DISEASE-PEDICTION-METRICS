@@ -33,7 +33,7 @@ A Google Colab notebook with two parts:
 - Stratified 80/20 train-test split
 - Feature scaling inside the pipeline (fitted on training data only)
 
-## Part B: test-set results (sample run)
+## Part B: test-set results (Kaggle data)
 
 | Model               | Accuracy | Precision | Recall | F1    |
 |---------------------|---------:|----------:|-------:|------:|
@@ -41,7 +41,7 @@ A Google Colab notebook with two parts:
 | Random Forest       | 0.974    | 1.000     | 0.929  | 0.963 |
 
 Model choice uses cross-validated F1 on the training data, not the test score.
-These numbers come from a run on the scikit-learn copy of the same UCI data. A Colab run with the Kaggle file may differ slightly.
+These numbers come from running the notebook in Google Colab on the Kaggle file (569 patients, 30 features; 455 for training and 114 for testing).
 
 ## Files
 
